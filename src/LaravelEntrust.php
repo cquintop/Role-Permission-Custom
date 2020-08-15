@@ -5,12 +5,12 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Class
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust;
+namespace Jeankex\LaravelEntrust;
 
 class LaravelEntrust
 {
