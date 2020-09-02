@@ -5,12 +5,12 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Facades
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust\Facades;
+namespace Jeankex\LaravelEntrust\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

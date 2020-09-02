@@ -5,12 +5,12 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Helpers
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust\Helpers;
+namespace Jeankex\LaravelEntrust\Helpers;
 
 use Illuminate\Support\Str;
 

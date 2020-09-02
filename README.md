@@ -19,20 +19,20 @@ Handle Role-based Permissions for your Laravel application.
 1) You can install the Laravel-entrust package via composer:
 
 ```bash
-composer require shanmuga/laravel-entrust
+composer require Jeankex/laravel-entrust
 ```
 > **Note:** You Can Skip step 2 and 3 If you are using above Laravel 5.5.
 
 2) Open your `config/app.php` and add the following to the `providers` array:
 
 ```php
-Shanmuga\LaravelEntrust\LaravelEntrustServiceProvider::class,
+Jeankex\LaravelEntrust\LaravelEntrustServiceProvider::class,
 ```
 
 3) In the same `config/app.php` and add the following to the `aliases ` array: 
 
 ```php
-'LaravelEntrust'   => Shanmuga\LaravelEntrust\Facades\LaravelEntrustFacade::class,
+'LaravelEntrust'   => Jeankex\LaravelEntrust\Facades\LaravelEntrustFacade::class,
 ```
 
 4) Run the command below to publish the package config files `config/entrust.php` and `config/entrust_seeder.php`
@@ -114,7 +114,7 @@ php artisan laravel-entrust:setup
 ```php
 <?php
 
-use Shanmuga\LaravelEntrust\Traits\LaravelEntrustUserTrait;
+use Jeankex\LaravelEntrust\Traits\LaravelEntrustUserTrait;
 
 class User extends Model
 {
@@ -297,7 +297,7 @@ When trying to use the EntrustUserTrait methods, you encounter the error which l
 
 then probably you don't have published Entrust assets or something went wrong when you did it.
 First of all check that you have the `entrust.php` file in your `config` directory.
-If you don't, then try `php artisan vendor:publish --tag=LaravelEntrust` and, if it does not appear, manually copy the `/vendor/shanmuga/laravel-entrust/src/config/entrust.php` file in your config directory.
+If you don't, then try `php artisan vendor:publish --tag=LaravelEntrust` and, if it does not appear, manually copy the `/vendor/Jeankex/laravel-entrust/src/config/entrust.php` file in your config directory.
 
 If your app uses a custom namespace then you'll need to tell entrust where your `permission` and `role` models are, you can do this by editing the config file in `config/entrust.php`
 

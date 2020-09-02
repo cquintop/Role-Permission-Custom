@@ -5,12 +5,12 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Commands
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust\Commands;
+namespace Jeankex\LaravelEntrust\Commands;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Console\GeneratorCommand;

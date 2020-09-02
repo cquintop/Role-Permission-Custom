@@ -5,12 +5,12 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Provider
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust;
+namespace Jeankex\LaravelEntrust;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
@@ -30,9 +30,9 @@ class LaravelEntrustServiceProvider extends ServiceProvider
      * @var array
      */
     protected $middlewares = [
-        'role'          => \Shanmuga\LaravelEntrust\Middleware\LaravelEntrustRole::class,
-        'permission'    => \Shanmuga\LaravelEntrust\Middleware\LaravelEntrustPermission::class,
-        'ability'       => \Shanmuga\LaravelEntrust\Middleware\LaravelEntrustAbility::class,
+        'role'          => \Jeankex\LaravelEntrust\Middleware\LaravelEntrustRole::class,
+        'permission'    => \Jeankex\LaravelEntrust\Middleware\LaravelEntrustPermission::class,
+        'ability'       => \Jeankex\LaravelEntrust\Middleware\LaravelEntrustAbility::class,
     ];
 
     /**
@@ -86,7 +86,7 @@ class LaravelEntrustServiceProvider extends ServiceProvider
             return new LaravelEntrust($app);
         });
 
-        $this->app->alias('LaravelEntrust', 'Shanmuga\LaravelEntrust\Facades\LaravelEntrustFacade');
+        $this->app->alias('LaravelEntrust', 'Jeankex\LaravelEntrust\Facades\LaravelEntrustFacade');
     }
 
     /**

@@ -5,17 +5,17 @@
  * Handle Role-based Permissions for Laravel.
  *
  * @license     MIT
- * @package     Shanmuga\LaravelEntrust
+ * @package     Jeankex\LaravelEntrust
  * @category    Models
- * @author      Shanmugarajan
+ * @author      Jeankex
  */
 
-namespace Shanmuga\LaravelEntrust\Models;
+namespace Jeankex\LaravelEntrust\Models;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Model;
-use Shanmuga\LaravelEntrust\Traits\LaravelEntrustRoleTrait;
-use Shanmuga\LaravelEntrust\Contracts\LaravelEntrustRoleInterface;
+use Jeankex\LaravelEntrust\Traits\LaravelEntrustRoleTrait;
+use Jeankex\LaravelEntrust\Contracts\LaravelEntrustRoleInterface;
 
 class EntrustRole extends Model
 {

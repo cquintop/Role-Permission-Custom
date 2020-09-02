@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Shanmuga\LaravelEntrust\Models\EntrustRole;
+use Jeankex\LaravelEntrust\Models\EntrustRole;
 
 class DummyClass extends EntrustRole
 {
